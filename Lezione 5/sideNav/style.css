@@ -1,0 +1,66 @@
+header {
+    height: 40px;
+    background-color: blue;
+}
+
+#logo {
+    height: 30px;  
+    float: left;
+}
+
+
+#logo img {
+    max-height: 100%;
+    margin-top: 5px;
+}
+
+#hamburger {
+    float: right;
+    background: red;
+    width: 50px;
+    height: 100%;
+}
+
+#hamburger img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+}
+
+#sideNav {
+    width: 0px;
+    background-color: rgba(255, 0, 0, 0.411);
+    height: 100%;
+    position: fixed;
+    right: 0;
+    transition: 0.8s;
+}
+
+#closeNav {
+    display: block;
+    height: 50px;
+    color: white;
+
+}
+
+#closeNav img {
+    height: 15px;
+    width: 15px;
+    margin-left: 170px;
+}
+
+.menu-items {
+    text-decoration: none;
+    display: block;
+    height: 0px;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    transition: 0.8s;
+}
+
+.menu-items:hover {
+    background-color: white;
+    color: red;
+}

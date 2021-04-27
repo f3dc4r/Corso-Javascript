@@ -1,0 +1,1 @@
+// console.log('sono nel file script2 ' + x)

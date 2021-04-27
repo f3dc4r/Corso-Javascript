@@ -1,0 +1,10 @@
+.inputStyle{
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+#login{
+    width: 200px;
+    background-color: blue;
+    color: white;
+}
